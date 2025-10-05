@@ -17,7 +17,7 @@ public class bai1 {
 
     public void nhap() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Ten san pham: ");
+        System.out.print("Ten SP: ");
         this.tenSp = scanner.nextLine();
 
         System.out.print("Don gia: ");
@@ -33,7 +33,7 @@ public class bai1 {
     }
 
     public void xuat() {
-        System.out.println("Ten san pham: " + this.tenSp);
+        System.out.println("Ten SP: " + this.tenSp);
         System.out.println("Don gia: " + this.donGia);
         System.out.println("Giam gia: " + this.giamGia);
         System.out.println("Thue nhap khau: " + getThueNhapKhau());
